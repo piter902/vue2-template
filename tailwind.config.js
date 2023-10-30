@@ -1,2 +1,2 @@
-const { tailwindConfig } = require('@piter/config');
+const { tailwindConfig } = require('@piter.fe/config');
 module.exports = { ...tailwindConfig };

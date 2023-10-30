@@ -1,2 +1,2 @@
-const { eslintrc } = require('@piter/config');
+const { eslintrc } = require('@piter.fe/config');
 module.exports = { ...eslintrc };

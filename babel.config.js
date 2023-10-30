@@ -1,2 +1,2 @@
-const { babelConfig } = require('@piter/config');
+const { babelConfig } = require('@piter.fe/config');
 module.exports = { ...babelConfig };

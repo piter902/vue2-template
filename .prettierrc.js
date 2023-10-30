@@ -1,2 +1,2 @@
-const { prettierrc } = require('@piter/config');
+const { prettierrc } = require('@piter.fe/config');
 module.exports = { ...prettierrc };

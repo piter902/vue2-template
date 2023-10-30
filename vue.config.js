@@ -1,5 +1,5 @@
 const { defineConfig } = require('@vue/cli-service');
-const { vueConfig } = require('@piter/config');
+const { vueConfig } = require('@piter.fe/config');
 const { name } = require('./package.json');
 const env = process.env.NODE_ENV;
 const proxy = {};
