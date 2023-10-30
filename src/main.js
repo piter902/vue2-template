@@ -1,4 +1,4 @@
-import Vue, { install } from '@piter/core';
+import Vue, { install } from '@piter.fe/core';
 import routes from '../.route';
 import '@/assets/style/tailwind.css';
 Vue.use(install, {
