@@ -2,7 +2,6 @@ import Vue, { install } from '@piter/core';
 import routes from '../.route';
 import '@/assets/style/tailwind.css';
 Vue.use(install, {
-  publicPath: '',
   Router: {
     routes,
     mode:'hash',
