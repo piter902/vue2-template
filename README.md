@@ -12,8 +12,8 @@
 ![env](image-3.png)
 4.常用的开源包由@peter.fe/core统一导出
 ![core](image-4.png)
-5.支持tailwindcss2.x
-6.支持ElementUI
-7.支持dayjs
-8.支持lodash
+5.支持tailwindcss2.x  
+6.支持ElementUI  
+7.支持dayjs  
+8.支持lodash  
 
