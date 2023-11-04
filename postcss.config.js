@@ -1,2 +1,2 @@
-const { postCssConfig } = require('@piter.fe/config');
+const { postCssConfig } = require('@peter.fe/config');
 module.exports = { ...postCssConfig };

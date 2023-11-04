@@ -1,2 +1,2 @@
-const { babelConfig } = require('@piter.fe/config');
+const { babelConfig } = require('@peter.fe/config');
 module.exports = { ...babelConfig };

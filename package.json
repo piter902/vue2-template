@@ -1,19 +1,20 @@
 {
   "name": "{{name}}",
   "version": "0.1.0",
+  "description": "{{description}}",
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development vue-cli-service serve",
-    "sit": "cross-env NODE_ENV=sit vue-cli-service build --mode=sit",
+    "test": "cross-env NODE_ENV=test vue-cli-service build --mode=test",
     "pre": "cross-env NODE_ENV=pre vue-cli-service build --mode=pre",
-    "build": "cross-env NODE_ENV=production vue-cli-service build",
+    "pro": "cross-env NODE_ENV=production vue-cli-service build",
     "analyzer": "cross-env NODE_ENV=analyzer vue-cli-service build",
     "lint": "vue-cli-service lint --fix"
   },
   "dependencies": {
-    "@piter.fe/config": "^1.0.0",
-    "@piter.fe/network": "^1.0.0",
-    "@piter.fe/core": "^1.0.0",
+    "@peter.fe/config": "^1.0.0",
+    "@peter.fe/network": "^1.0.0",
+    "@peter.fe/core": "^1.0.0",
     "core-js": "^3.8.3",
     "qs": "^6.11.2"
   },
